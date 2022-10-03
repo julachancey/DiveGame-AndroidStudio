@@ -51,7 +51,7 @@ public class DiveGame extends AppCompatActivity implements SensorEventListener, 
         white_text.setTextSize(100);
 
         diver=Bitmap.createScaledBitmap(BitmapFactory.decodeResource(getResources(),R.drawable.diver),500,500,false);
-        sun=Bitmap.createScaledBitmap(BitmapFactory.decodeResource(getResources(),R.drawable.planet2),200,200,false);
+        sun=Bitmap.createScaledBitmap(BitmapFactory.decodeResource(getResources(),R.drawable.lionfish),200,200,false);
 
 
         SensorManager manager=(SensorManager)getSystemService(Context.SENSOR_SERVICE);
